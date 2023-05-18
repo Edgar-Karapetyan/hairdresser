@@ -102,7 +102,6 @@ body::-webkit-scrollbar-track {
 
 .container__rowRight {
     width: 100%;
-    overflow-y: hidden;
     overflow-x: hidden;
     scrollbar-color: #b4977b #e5e5e5;
     scrollbar-width: thin;
@@ -211,7 +210,8 @@ body::-webkit-scrollbar-track {
 }
 
 .net__icon {
-    position: absolute
+    position: absolute;
+    z-index: -1;
 }
 
 .net__icon__1 {
@@ -523,10 +523,6 @@ body::-webkit-scrollbar-track {
 
     .rightInnerColumnSection {
         text-align: center
-    }
-
-    .container__rowRight {
-        overflow-y: inherit
     }
 
     .socialRow {
